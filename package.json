@@ -1,33 +1,33 @@
 {
-    "name": "react-theme-vscode",
-    "displayName": "React Theme",
-    "description": "Theme based on React's website colors",
-    "version": "1.0.4",
-    "publisher": "mikaelkristiansson87",
-    "author": "Mikael Kristiansson <mikael.kristiansson87@gmail.com>",
-    "icon": "icon.png",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/mikaelkristiansson/react-theme-vscode"
-    },
-    "engines": {
-        "vscode": "^1.28.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "React Theme",
-                "uiTheme": "vs-dark",
-                "path": "./themes/react-theme-color-theme.json"
-            }
-        ]
-    },
-    "keywords": [
-        "Vscode",
-        "Theme",
-        "react"
+  "name": "react-italic-theme-vscode",
+  "displayName": "React Italic Theme",
+  "description": "Theme based on React's website colors",
+  "version": "1.0.0",
+  "publisher": "barrsan",
+  "author": "Alex Baretsky <41ax@mail.ru>",
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/barrsan/react-italic-theme-vscode"
+  },
+  "engines": {
+    "vscode": "^1.28.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "React Italic Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/react-italic-theme-color-theme.json"
+      }
     ]
+  },
+  "keywords": [
+    "Vscode",
+    "Theme",
+    "react"
+  ]
 }
