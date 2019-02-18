@@ -351,6 +351,13 @@
         "fontStyle": "italic",
         "foreground": "#88c6be"
       }
+    },
+    {
+      "name": "Constant.Object.Keys",
+      "scope": ["string.unquoted", "constant.other.object.key"],
+      "settings": {
+        "foreground": "#8ADF69"
+      }
     }
   ]
 }
