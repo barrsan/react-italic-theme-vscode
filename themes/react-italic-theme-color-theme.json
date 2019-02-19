@@ -374,6 +374,13 @@
       "settings": {
         "fontStyle": "italic"
       }
+    },
+    {
+      "name": "Function.Arrow",
+      "scope": ["storage.type.function.arrow", "meta.function.arrow"],
+      "settings": {
+        "fontStyle": ""
+      }
     }
   ]
 }
