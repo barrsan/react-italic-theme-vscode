@@ -100,9 +100,11 @@
     "settings.textInputBorder": "#191A21",
     "settings.textInputForeground": "#F8F8F2",
     "sideBar.background": "#282c34",
-    "sideBar.foreground": "#bbbbbb",
+    // "sideBar.foreground": "#bbbbbb",
+    "sideBar.foreground": "#eee",
     "sideBarSectionHeader.background": "#282c34",
-    "statusBar.background": "#282c34",
+    "statusBar.background": "#61dafb", // "#282c34"
+    "statusBar.foreground": "#282c34",
     "tab.activeBorder": "#ddd",
     "tab.inactiveBackground": "#282c34",
     "tab.inactiveForeground": "#eee",
@@ -318,7 +320,8 @@
       "name": "Operator",
       "scope": ["keyword.operator"],
       "settings": {
-        "foreground": "#d7deea"
+        "foreground": "#d7deea",
+        "fontStyle": ""
       }
     },
     {
@@ -357,6 +360,20 @@
       "scope": ["string.unquoted", "constant.other.object.key"],
       "settings": {
         "foreground": "#8ADF69"
+      }
+    },
+    {
+      "name": "Variable.Other.Class",
+      "scope": ["variable.other.class", "meta.property.class"],
+      "settings": {
+        "foreground": "#A4FFFF"
+      }
+    },
+    {
+      "name": "Console",
+      "scope": ["support.type.object.console"],
+      "settings": {
+        "fontStyle": "italic"
       }
     }
   ]
