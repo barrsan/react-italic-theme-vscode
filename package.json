@@ -2,6 +2,7 @@
   "name": "react-italic-theme-vscode",
   "displayName": "React Italic Theme",
   "description": "Theme based on React's website colors",
+  "license": "SEE LICENSE IN LICENSE",
   "version": "1.0.2",
   "publisher": "barrsan",
   "author": "Alex Baretsky <41ax@mail.ru>",
