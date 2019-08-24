@@ -317,14 +317,21 @@
       "name": "Object Key",
       "scope": ["meta.object-literal.key"],
       "settings": {
-        "foreground": "#ffecc5"
+        "foreground": "#8ADF69"
       }
     },
     {
       "name": "Object Key 2",
       "scope": ["meta.var.expr meta.objectliteral meta.object.member meta.objectliteral meta.object.member meta.object-literal.key"],
       "settings": {
-        "foreground": "#d8d8d8"
+        "foreground": "#caffb5"
+      }
+    },
+    {
+      "name": "Constant.Object.Keys",
+      "scope": ["string.unquoted", "constant.other.object.key"],
+      "settings": {
+        "foreground": "#8ADF69"
       }
     },
     {
@@ -360,6 +367,7 @@
     {
       "name": "Comments",
       "scope": [
+        "comment",
         "punctuation.definition.comment",
         "comment.line",
         "comment.line.double-slash"
@@ -386,13 +394,6 @@
       "settings": {
         "fontStyle": "italic",
         "foreground": "#88c6be"
-      }
-    },
-    {
-      "name": "Constant.Object.Keys",
-      "scope": ["string.unquoted", "constant.other.object.key"],
-      "settings": {
-        "foreground": "#8ADF69"
       }
     },
     {
