@@ -1,4 +1,8 @@
-# React Italic Theme VSCode
+# [DEPRECATED] React Italic Theme VSCode
+
+Please use: https://github.com/barrsan/reui-vscode-theme
+
+---
 
 Theme following [react website colors](https://reactjs.org).
 
